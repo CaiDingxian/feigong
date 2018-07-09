@@ -1,6 +1,6 @@
 # feigong [非攻]
 
-https://img.shields.io/badge/Language-Java-blue.svg?longCache=true&style=flat-square
+![](https://img.shields.io/badge/Language-Java-blue.svg?longCache=true&style=flat-square)
 
 我们在做 Web 项目的时候花费大量时间都用在 `表单/json/Bean` 的后端验证上，因为我们要确保Web 后端数据的安全性和一致性，同时给用户一个友好的提醒
 
