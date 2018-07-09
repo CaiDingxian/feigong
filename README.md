@@ -1,24 +1,21 @@
-# feigong
-我们在做Web项目的时候花费大量时间都用在 表单/json/Bean 的后端验证上，因为我们要确保
-web后端数据的安全性和一致性，同时给用户一个友好的提醒
+# feigong [非攻]
 
-用过Struts，Spring，JFinal的朋友应该知道，它们的提供的命令式Validator体系设计都十分
-优秀，但往往不省时间
+https://img.shields.io/badge/Language-Java-blue.svg?longCache=true&style=flat-square
 
-而注解式Validator其缺点显而易见
+我们在做 Web 项目的时候花费大量时间都用在 `表单/json/Bean` 的后端验证上，因为我们要确保Web 后端数据的安全性和一致性，同时给用户一个友好的提醒
 
-1.不够直观，不够集中
+用过 `Struts`，`Spring`，`JFinal` 的朋友应该知道，它们的提供的命令式 `Validator` 体系设计都十分优秀，但往往不省时间
 
-2.对Bean产生入侵，也使一Bean多验证逻辑混乱
+而注解式 `Validator` 其缺点显而易见
 
-3.灵活性差，难以驾驭复杂的验证逻辑
-
-
-因此我一直在思考如何提炼出简洁的Validator
+1. 不够直观，不够集中
+2. 对Bean产生入侵，也使一Bean多验证逻辑混乱
+3. 灵活性差，难以驾驭复杂的验证逻辑
 
 
-以下是我提出的一种命令式验证手段 - 非攻，启发自Laravel的表单验证，但我想，它
-会比Laravel更灵活好用得多
+因此我一直在思考如何提炼出简洁的 `Validator`
+
+以下是我提出的一种命令式验证手段 - `非攻`，启发自 `Laravel` 的表单验证，但我想，它会比 `Laravel` 更灵活好用得多
 
 
  **公输盘之攻械尽，子墨子之守圉有余** 
